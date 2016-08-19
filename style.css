@@ -1,8 +1,8 @@
 /*
 Theme Name: safeertheme
 Theme URI: http://underscores.me/
-Author: Underscores.me
-Author URI: http://underscores.me/
+Author: Safeer Ahmad
+Author URI: http://phoenix.sheridanc.on.ca/~ccit3682/
 Description: Description
 Version: 1.0.0
 License: GNU General Public License v2 or later
@@ -26,6 +26,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Normalize
 # Typography
 # Elements
+# Header
 # Forms
 # Navigation
 	## Links
@@ -41,6 +42,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Media
 	## Captions
 	## Galleries
+	## Responsive Design 
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
@@ -472,7 +474,7 @@ p.site-description
 { 
 	font-family:'Source Sans Pro', sans-serif;
 	font-size:1.25em
-	color: #21292c;
+	color: #ffffff;
 	margin-left: 2em;
 }
  
@@ -881,15 +883,12 @@ aside#secondary .widget-area{
 	background-color: #21292c;
 	color: #f2f2f2;
 	line-height:120%;
-	margin:0.75em auto; 
-	max-width:1200px;
+	max-width:1400px;
 	width:100%;
 	
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
-
-	
 .sticky {
 	display: block;
 }
@@ -1037,14 +1036,16 @@ object {
 }
 
 
+/*--------------------------------------------- 
+Responsive Design 
+------------------------------------------------*/ 
 
-/* styling on mobile */ 
 .responsivemobile 
 {
-font-size: 15px;
+font-size: 12px;
 float: left; 
 }
-@media screen and (max-width: 500px){ 
+@media screen and (max-width: 100px){ 
 #primary,
 #sidebar,
 #colophon,
@@ -1053,7 +1054,7 @@ float: left;
 height: auto;
 margin: auto; 
 float: none; 
-width: 60%; 
+width: 30%; 
 }
 
 /* removes style to the list */ 
@@ -1065,7 +1066,7 @@ text-align: center;
 }
 .site-info 
 {
-width:50%;
+width:30%;
 }
 
 }
@@ -1110,24 +1111,25 @@ button
 font-size: 18px; 
 color: #b6afa1;
 
-/* left side of the page*/
+/* right side of the page*/
 .sidebar-widgets
 {
 text-align:center;
 }
 #sidebar{ 
-width: 30%; 
-float: left; 
+width: 50%; 
+float: right; 
 } 
 
 #footer-widgets
 {
-width:50%;
+width:40%;
 text-align: center; 
 }
 .foot-menu
 {
 text-align: center; 
+font:#ffffff; 
 }
 ul
 {
