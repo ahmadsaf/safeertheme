@@ -857,7 +857,7 @@ a:active {
 }
 aside#secondary.widget-area{
 	float:right;
-	margin-bottom: 1em;
+	margin-bottom: 0.75em;
 	margin-right: 2em;
 	width: 21%; 
 }
