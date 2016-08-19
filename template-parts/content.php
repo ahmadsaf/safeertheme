@@ -40,6 +40,7 @@
 			) );
 		?>
 	</div><!-- .entry-content -->
+	
 
 	<footer class="entry-footer">
 		<?php safeertheme_entry_footer(); ?>
