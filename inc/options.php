@@ -57,6 +57,7 @@ function sa_theme_options() {
 
 add_action( 'admin_menu', 'sa_theme_options' );
 
+
 // Function to generate options page
 function sa_theme_options_page() {
 	global $sa_options, $sa_categories, $sa_layouts;
