@@ -183,7 +183,7 @@ return $avatar_defaults;
 
 //Sited Gravatar from http://www.wpbeginner.com/wp-tutorials/how-to-change-the-default-gravatar-on-wordpress/
 
-//Excerpt Change
+//Excerpt Change and Add On
 function CCT_excerpt_more($more) {
        global $post;
 	return '<a class="moretag" href="'. get_permalink($post->ID) . '"> end the mystery and find out more...</a>';
