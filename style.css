@@ -853,7 +853,7 @@ a:active {
 
 /* Make sure select elements fit in widgets. */
 .widget select {
-	max-width: 100%;
+	max-width: 90%;
 }
 aside#secondary.widget-area{
 	float:right;
