@@ -57,8 +57,8 @@ html {
 }
 
 body {
-	margin: 0;
 	background-color: #c4cecc;  
+	margin: 0; 
 }
 
 article,
@@ -1071,7 +1071,7 @@ width:50%;
 }
 .main-navigation.menu 
 {
-width: 50%;
+width: 40%;
 }
 .main-navigation li
 {
