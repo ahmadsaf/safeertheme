@@ -28,7 +28,10 @@ get_header (); ?>
 		<?php 
 		endif; ?>
 		</main><!-- #main -->
-		<?php if ( wp_is_mobile() ){ 
+		
+		<?php
+		
+		 if ( wp_is_mobile() ){ 
         echo '       
                <div class="responsivemobie"> Safeer Ahmad CCT460
         </div>'; } ?>
