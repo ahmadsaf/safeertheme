@@ -58,6 +58,7 @@ html {
 
 body {
 	margin: 0; 
+	background-color: #c4cecc;
 }
 
 article,
@@ -1043,7 +1044,7 @@ object {
 font-size: 15px;
 float: left; 
 }
-@media screen and (max-width: 350px){ 
+@media screen and (max-width: 500px){ 
 #primary,
 #sidebar,
 #colophon,
@@ -1052,7 +1053,7 @@ float: left;
 height: auto;
 margin: auto; 
 float: none; 
-width: 80%; 
+width: 60%; 
 }
 
 /* removes style to the list */ 
@@ -1075,7 +1076,7 @@ width: 40%;
 .main-navigation li
 {
 float: none;
-padding: 0.3px;
+padding: 0.2px;
 position: relative;
 text-align:left;
 }
@@ -1106,7 +1107,7 @@ width: 80%;
 
 button
 {
-font-size: 15px; 
+font-size: 18px; 
 color: #b6afa1;
 
 /* left side of the page*/
